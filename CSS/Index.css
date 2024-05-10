@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+@media (max-width: 1000px){
+
+                        /**************** NAVBAR *******************/
+    a, a:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        color:   #CDAD00;
+    }
+    nav {
+        background-color:#143D59 ;
+        font-size: calc(0.9rem + 1.5vw);
+    }
+    .NavBar {
+        display: flex;
+        gap: 25%;
+        align-items: center;
+    }
+    .LogoSite {
+        width:110px ;
+    }
+    #icons{
+        font-size: 3rem; 
+        padding-left: 20px;
+        cursor: pointer;
+        color: #CDAD00;
+    }
+    .hidden-nav ul {
+        display: none;
+    }
+    nav ul {
+        background-color: #143D59;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 0;
+    }
+    nav li {
+        padding: 5px 0;
+    }
+    .ConcertEvent {
+        font-size: 50px;
+    }
+
+                                /**************** Programmation *******************/
+    .Programmmation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Ulprogrammation {
+        display:grid;  
+        font-size: calc(1.5rem + 1.5vw);
+        gap: 10%;
+        margin: 5% 0 ;
+    }
+    .ListeProgrammation { 
+        display: flex; 
+        gap:25px;
+        align-items: center;
+    }
+    .ListeProgrammation :first-child {
+        text-decoration: underline;
+        color: #CDAD00;
+    }
+    .InputProgrammation {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10% ;
+        margin: 10% 25%;
+        font-size: calc(1rem + 1.5vw);
+    }
+    .InputProgrammation label {
+        margin-right: 10%;
+    }
+ }
